@@ -1,7 +1,6 @@
 # Let's Practice HTML 🎨
 ## Cards.html 
-Learning 🦺🥽.[^1]
-[^1]: (https://freecodecamp.org)
+Learning 🦺🥽.
 - searchBar
     1. banner
     2. ul
