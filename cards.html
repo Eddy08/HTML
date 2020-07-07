@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <style>
+        h4{
+            text-align: center;
+            text-transform:uppercase;
+            /* height:20px; */
+            background-color: rgba(45,45,45,0.1);
+            padding:10px;
+            font-size:27px;
+            font-weight:200;
+            transform: skewX(10deg);
+
+        }
+        p{
+            text-align:justify;
+            line-height:25px;
+        }
+        #thumbnail{
+            box-shadow: 0 10px 10px 2px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23);
+        }
+        .links{
+            margin-right:20px;
+            opacity:0.7;
+            text-decoration: none;
+            color:black;
+        }
+        a:hover{
+            color:green;
+        }
+        .banner{
+            background-color:hsl(180,90%,35%);
+            color: white;
+            text-align: center;
+            font-size: 40px;
+            text-transform: capitalize;
+            font-style: italic;
+        }
+        .fullCard{
+            position:absolute;
+            top:8em;
+            width:245px;
+            border:1px solid #ccc;
+            border-radius: 5px;
+            margin:10px 5px;
+            padding:4px;
+        }
+        .cardContent{
+            padding:10px;
+        }
+
+        .searchBar{
+            background-color: hsl(180,80%,25%);
+            position: fixed;
+            top:0;
+            left:0;
+            right:0;
+            z-index: 2;
+        }
+        ul{
+            display: flex;
+            flex-wrap: nowrap;
+            /* flex-direction: row */
+            justify-content: flex-end;
+            list-style: none;
+
+        }
+        li{
+
+          padding:0 2em;
+          margin-right:2em;
+          border-radius:25%;
+        }
+        li a{
+          padding:1.2em 2em;
+
+        }
+      li a:hover{
+        background-color: hsl(180,80%,90%);
+          color:hsl(180,80%,25%);
+          padding:1.2em 2em;
+          scale:1.2;
+        }
+        .home{
+            position: absolute;
+            left:0;
+
+        }
+
+
+        .searchBar a{
+            text-decoration: none;
+            color:white;
+            font-size:0.9em;
+            font-weight: 200;
+        }
+        .block1:hover ,.block2:hover,.block3:hover,.block4 :hover,.block5:hover,.block6:hover,.block7:hover,.block8:hover,.block9:hover,.block10:hover,.block11:hover{
+            transform: scale(1.5);
+            /* transform:skewX(24deg); */
+        }
+        .block1{
+            height:50px;
+            background-color: red;
+        }
+        .block2{
+            height:50px;
+            background-color: cyan;
+        }
+        .block3{
+            height:50px;
+            background-color:green;
+        }
+        .block4{
+            height:50px;
+            background-color:magenta;
+        }
+        .block5{
+            height:50px;
+            background-color: blue;
+        }
+        .block6{
+            height:50px;
+            background-color: yellow;
+        }
+        .block7{
+            height:50px;
+            background-color: #FF7F00;
+        }
+        .block8{
+            height:50px;
+            background-color: #Ff007f;
+        }
+        .block9{
+            height:50px;
+            background-color: yellow;
+        }
+        .block10{
+            height:400px;
+            background:linear-gradient(35deg,#CCFFFF,#FFCCCC,rgb(204,204,255))
+        }
+        .block11{
+            height:400px;
+            background:repeating-linear-gradient(
+                45deg,
+                yellow 0px,
+                yellow 40px,
+                black 40px,
+                black 80px
+            )
+        }
+        .heart{
+            background-color: #FFCCCC;
+            /* width:300px; */
+            height:300px;
+            position: relative;
+        }
+        .shape{
+
+            margin:auto;
+            position: absolute;
+            top:50%;
+            left:40%;
+            width:50px;
+            height:50px;
+            /* padding:2em; */
+            /* border-left: 2px red solid; */
+            /* border-bottom: 2px red solid; */
+            /* border-radius: 5%; */
+            transform:rotate(-45deg);
+            background-color: red;
+        }
+        .shape::after{
+            content:'';
+            position: absolute;
+            top:0px;
+            left:25px;
+            width:50px;
+            height:50px;
+            border-radius: 50%;
+            background-color: red;
+            /* border-right: 3px red solid; */
+
+        }
+        .shape::before{
+            content:'';
+            position: absolute;
+            top:-25px;
+            left:0px;
+            width:50px;
+            height:50px;
+            border-radius: 50%;
+            background-color: red;
+            /* border-top: 3px red solid; */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="searchBar">
+        <div class="banner">
+            Welcome to Harsh Site🚗
+        </div>
+        <ul>
+            <li class="home"><a href="#" target="_blank">Home</a></li>
+            <li><a href="#" target="_blank">About</a></li>
+            <li><a href="#" target="_blank">Sign In</a></li>
+            <li><a href="#" target="_blank">Sign Up</a></li>
+        </ul>
+    </div>
+    <div class="fullCard" id="thumbnail">
+        <div class="cardContent">
+            <div class="cardText">
+                <h4> Harsh <s>🚗 🚲</s> 🛫</h4>
+                <p>
+                    <em>
+
+                        My name is Harsh and I from Jind,
+                        I have done my Bachelors in <u>                       Computer</u>
+                        Science Engineering.
+                        My Dream is Car is <strong>
+
+                            Suzuki Jimny.
+                        </strong>
+                    </em>
+                </p>
+            </div>
+            <div class="cardLinks">
+                <a href="https://twitter.com/H4harshbhardwaj" target="_blank" class="links">Twitter</a>
+                <a href="https://eddy08.github.io/animals_blog/members" target="_blank" class="links">Blog</a>
+            </div>
+            </div>
+        </div>
+        <div class="fullCard" id="thumbnail" style="position:absolute;left:20em;">
+            <div class="container">
+                <div class="block1"></div>
+                <div class="block9"></div>
+
+                <div class="block7"></div>
+                <div class="block2"></div>
+                <div class="block8"></div>
+
+                <div class="block3"></div>
+                <div class="block4"></div>
+                <div class="block5"></div>
+                <div class="block6"></div>
+                <div class="block10"></div>
+                <div class="block11"></div>
+
+            </div>
+
+
+        </div>
+
+     <div class="fullCard" id="thumbnail" style="position: absolute;left: 40em;">
+        <div class="heart">
+            <div class="shape"></div>
+        </div>
+     </div>
+     <div style="position:absolute;left:60em;width:auto;top:8em;">
+       <blockquote class="twitter-tweet">
+<p lang="en" dir="ltr">Sunsets don&#39;t get much better than this one over
+ <a href="https://twitter.com/GrandTetonNPS?ref_src=twsrc%5Etfw">@GrandTetonNPS</a>.
+ <a href="https://twitter.com/hashtag/nature?src=hash&amp;ref_src=twsrc%5Etfw">#nature</a>
+<a href="https://twitter.com/hashtag/sunset?src=hash&amp;ref_src=twsrc%5Etfw">#sunset</a>
+ <a href="http://t.co/YuKy2rcjyU">pic.twitter.com/YuKy2rcjyU</a>
+</p>&mdash; US Department of the Interior (@Interior)
+<a href="https://twitter.com/Interior/status/463440424141459456?ref_src=twsrc%5Etfw">May 5, 2014</a></blockquote>
+ <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
+</script>
+
+
+     </div>
+    </body>
+</html>
