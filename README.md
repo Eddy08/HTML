@@ -12,6 +12,6 @@ Learning 🦺🥽.
 
   ## To Do Lists
 
-  -[x] Cookie on Footer 🍪         
-  -[x] Button with Shutter Effect 🎚
-  -[x] Five Star rating with hover over effect ⭐⭐⭐⭐⭐
+ - [ x ]  Cookie on Footer 🍪         
+ - [ x ] Button with Shutter Effect 🎚
+ - [ x ] Five Star rating with hover over effect ⭐⭐⭐⭐⭐
