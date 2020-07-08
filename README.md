@@ -10,7 +10,8 @@ Learning 🦺🥽.
 |  div (twitter)      	|  div (twitter)                                                                                                                                                                                                                                                 	|
 
 
-  ## To Do Lists    
-   -[ ] Cookie on Footer 🍪         
-   -[ ] Button with Shutter Effect 🎚
-   -[ ] Five Star rating with hover over effect ⭐⭐⭐⭐⭐
+  ## To Do Lists
+
+  -[x] Cookie on Footer 🍪         
+  -[x] Button with Shutter Effect 🎚
+  -[x] Five Star rating with hover over effect ⭐⭐⭐⭐⭐
