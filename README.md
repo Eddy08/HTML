@@ -8,7 +8,9 @@ Learning 🦺🥽.
 |  fullCard thumbnail 	|  <pre> - container<br>            - block [1-9]<br></pre>                                                                                                                                                                                                      	|
 |  fullCard thumbnail 	| <pre> heart<br>            - shape<pre>                                                                                                                                                                                                                        	|
 |  div (twitter)      	|  div (twitter)                                                                                                                                                                                                                                                 	|
-    ## To Do Lists    
-    -[ ] Cookie on Footer 🍪         
-    -[ ] Button with Shutter Effect 🎚
-    -[ ] Five Star rating with hover over effect ⭐⭐⭐⭐⭐
+
+
+  ## To Do Lists    
+   -[ ] Cookie on Footer 🍪         
+   -[ ] Button with Shutter Effect 🎚
+   -[ ] Five Star rating with hover over effect ⭐⭐⭐⭐⭐
