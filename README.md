@@ -1,30 +1,18 @@
 # Let's Practice HTML 🎨
 ## Cards.html 
 Learning 🦺🥽.
-- searchBar
-    1. banner
-    2. ul
-        - li
-            - a
-            - home
-    3. fullCard thumbnail
-        - cardContext
-            - cardText
-                1. h4 
-                    - s
-                2. p
-                    - em
-                        - u
-                        - strong
-            - cardLinks    
 
-    4. fullCard thumbnail
-        - container
-            - block [1-9]
+|         Id 🎫        	| Properties 🎨                                                                                                                                                                                                                                                   	|
+|:-------------------:	|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
+|  searchBar          	| <pre> 1. banner<br>       2. ul<br>           - li<br>           - a<br>           - home</pre>                                                                                                                                                                	|
+|  fullCard thumbnail 	| <pre> - cardContext<br>            - cardText<br>                1. h4 <br>                    - s<br>                2. p<br>                    - em<br>                        - u<br>                        - strong<br>            - cardLinks<br></pre> 	|
+|  fullCard thumbnail 	|  <pre> - container<br>            - block [1-9]<br></pre>                                                                                                                                                                                                      	|
+|  fullCard thumbnail 	| <pre> heart<br>            - shape<pre>                                                                                                                                                                                                                        	|
+|  div (twitter)      	|  div (twitter)                                                                                                                                                                                                                                                 	|  
 
-    5. fullCard thumbnail
-        - heart
-            - shape
-    6. div (twitter)
-        [twitter] (https://publish.twitter.com)
-            
+## To Do Lists  
+
+Items to Do  
+- [x] Cookie on Footer 🍪  
+- [ ] Button with Shutter Effect 🎚  
+- [ ] Five Star rating with hover over effect ⭐⭐⭐⭐⭐  
